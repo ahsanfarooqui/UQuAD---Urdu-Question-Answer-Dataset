@@ -11,6 +11,15 @@ We have presented a new dataset for question and answering models. Our dataset c
 | Total # of unique worlds in all Question   |  395  |
 
 
+
+Structure of dataset: 
+Assuming variable `data` has the data imported into it as a dictionary:
+
+To access first question-context set: `data['1']`
+To access all questions of first datapoint: `data['1']['question']`
+To access context of first datapoint: 
+`data['1']['context']`
+
 Any questions or comments or if you are willing to contribute? 
 
 Let us know at ahsan.farooqui@ieee.org
